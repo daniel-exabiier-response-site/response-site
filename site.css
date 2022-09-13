@@ -2,6 +2,9 @@ body{
     font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
 }
+nav {
+    padding: 0 !important;
+}
 section {
     background-color: #f0f0f0;
 }
@@ -28,7 +31,22 @@ img {
     align-items: center;
 }
 
+.x-white-badge {
+    background-color: #ffffff;
+}
 
+.x-red-badge {
+    background-color: #E6563B;
+}
+.x-yellow-badge {
+    background-color: #EB9D3A;
+}
+.x-green-badge {
+    background-color: #7CB06C;
+}
+.x-blue-badge {
+    background-color: #00ABA9;
+}
 
 @media screen and (max-width: 767px){
     hr {

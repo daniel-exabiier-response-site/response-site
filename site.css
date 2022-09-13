@@ -1,6 +1,10 @@
+/*fonts*/
 body{
     font-family: 'Abel', sans-serif;
     background-color: #f0f0f0;
+}
+.x-anton {
+    font-family: 'Anton', sans-serif;
 }
 nav {
     padding: 0 !important;
@@ -9,17 +13,13 @@ section {
     background-color: #f0f0f0;
 }
 
-.x-anton{
-    font-family: 'Anton', sans-serif;
-}
-
 img {
     border: .5rem solid #e6e6e6;
 }
 #nav-img {
     border: none;
 }
-
+/*making the badge a circle*/
 .x-badge-big {
     height: 100px;
     width: 100px;
@@ -30,7 +30,7 @@ img {
     justify-content: center;
     align-items: center;
 }
-
+/*badge colors*/
 .x-white-badge {
     background-color: #ffffff;
 }
@@ -47,10 +47,11 @@ img {
 .x-blue-badge {
     background-color: #00ABA9;
 }
-
+/*hiding hr on mobile*/
 @media screen and (max-width: 767px){
     hr {
         display: none;
     }
     
 }
+

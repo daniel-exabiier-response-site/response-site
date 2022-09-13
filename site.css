@@ -17,6 +17,17 @@ img {
     border: none;
 }
 
+.x-badge-big {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    font-size: large;
+    padding: 50% 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (max-width: 767px){
     hr {
         display: none;
